@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0; /* Remove default margin to ensure full-width */
+}
+
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ff6600;
+    margin: 0; /* Remove margin to ensure the heading is centered */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro img {
+    max-width: 100%; /* Ensure the cover image is responsive */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.facts {
+    margin-top: 30px;
+}
+
+.facts h2 {
+    color: #ff6600;
+}
+
+.nutritional-info h2 {
+    color: #ff6600; /* Set the color to orange */
+}
+.facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.facts ul li {
+    margin-bottom: 10px;
+}
+
+.nutritional-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content {
+    background-image: url('M&Ms.jpg');
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block; /* Ensure the buttons are on the same line */
+}
+
+.button:hover {
+    background-color: #45a049;
+}
